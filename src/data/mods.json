@@ -360,8 +360,20 @@
     {
       "name": "Lunar Fallout All in One Overhaul",
       "url": "https://www.nexusmods.com/fallout4/mods/34769",
-      "flags": [1, 2, 3, 4, 5, 6],
+      "flags": [1, 2, 3, 4, 5, 6, 8],
       "desc": "A comprehensive overhaul of almost every system in the game."
+    },
+    {
+      "name": "Horizon",
+      "url": "https://www.nexusmods.com/fallout4/mods/17374",
+      "flags": [8],
+      "desc": "A large scale overhaul of the entire game. Designed for survival mode, but can be used on any difficulty."
+    },
+    {
+      "name": "FROST Survival Simulator",
+      "url": "https://www.nexusmods.com/fallout4/mods/18898",
+      "flags": [8],
+      "desc": "Reworks the ENTIRE game into a survival game. Most quests are removed, in exchange for pure wilderness survival."
     }
   ],
   "miscellaneous_gameplay": [
@@ -434,14 +446,122 @@
       "url": "https://www.nexusmods.com/fallout4/mods/2037",
       "flags": [],
       "desc": "A customizable overhaul for combat."
+    },
+    {
+      "name": "RDM - Rebalance of Damage Modifiers",
+      "url": "https://www.nexusmods.com/fallout4/mods/24134",
+      "flags": [],
+      "desc": "Changes the damage modifiers on body parts to make headshots much more valuable."
     }
   ],
   "weapons_armor": [
+    {
+      "name": "Weapon Balance Overhaul",
+      "url": "https://www.nexusmods.com/fallout4/mods/2463",
+      "flags": [],
+      "desc": "Rebalances all vanilla weapons to make earlier weapons less obsolete."
+    },
     {
       "name": "Synth Overhaul",
       "url": "https://www.nexusmods.com/fallout4/mods/9525",
       "flags": [],
       "desc": "Overhauls synth armor providing more variations. Includes a two modified synth weapons."
+    },
+    {
+      "name": "Armorsmith Extended",
+      "url": "https://www.nexusmods.com/fallout4/mods/2228",
+      "flags": [],
+      "desc": "Allows much more outfit customization."
+    },
+    {
+      "name": "Eli's Armour Compendium",
+      "url": "https://www.nexusmods.com/fallout4/mods/22431",
+      "flags": [],
+      "desc": "Adds a bunch of lore-friendly armors."
+    },
+    {
+      "name": "CROSS Pre-War Cybernetics",
+      "url": "https://www.nexusmods.com/fallout4/mods/8609",
+      "flags": [],
+      "desc": "Adds some new cybernetic armor that increases your abilities massively. Think lightweight power armor."
+    },
+    {
+      "name": "CROSS Jetpack",
+      "url": "https://www.nexusmods.com/fallout4/mods/12471",
+      "flags": [],
+      "desc": "Adds a non-PA jetback designed to be used cybernetics."
+    },
+    {
+      "name": "Nanosuit",
+      "url": "https://www.nexusmods.com/fallout4/mods/7451",
+      "flags": [],
+      "desc": "Gives a neato nanosuit and some additional gear. Not very lore-friendly, but very cool."
+    },
+    {
+      "name": "Enclave X-02 Power Armor",
+      "url": "https://www.nexusmods.com/fallout4/mods/11017",
+      "flags": [],
+      "desc": "Adds the X-02 Power Armor from the Capital Wasteland."
+    },
+    {
+      "name": "Hellfire X-03 Power Armor",
+      "url": "https://www.nexusmods.com/fallout4/mods/26251",
+      "flags": [],
+      "desc": "Adds the terrifying Hellfire Power Armor from the FO3 Broken Steel DLC."
+    },
+    {
+      "name": "Handmade Anti-Materiel Rifle",
+      "url": "https://www.nexusmods.com/fallout4/mods/32036",
+      "flags": [],
+      "desc": "Adds a makeshift anti-materiel rifle. Various crafting options."
+    },
+    {
+      "name": "Combined Arms",
+      "url": "https://www.nexusmods.com/fallout4/mods/50505",
+      "flags": [],
+      "desc": "Adds a bunch of modern weapons. High quality models."
+    },
+    {
+      "name": "BH SIG MCX Spear NGSW",
+      "url": "https://www.nexusmods.com/fallout4/mods/62283",
+      "flags": [],
+      "desc": "Adds the SIG MCX Spear, with custom animations, textures, and compatibility with many other mods."
+    },
+    {
+      "name": "SCAR-H",
+      "url": "https://www.nexusmods.com/fallout4/mods/18726",
+      "flags": [],
+      "desc": "Adds the beloved SCAR-H to the commonwealth. Support for full customization."
+    },
+    {
+      "name": "DKS-501 Sniper Rifle",
+      "url": "https://www.nexusmods.com/fallout4/mods/15909",
+      "flags": [],
+      "desc": "Adds the iconic DKS-501 as a fully moddable gun."
+    },
+    {
+      "name": "Modular Simonov PTRS-41 Anti-Tank Rifle",
+      "url": "https://www.nexusmods.com/fallout4/mods/11925",
+      "flags": [],
+      "desc": "Adds three anti-tank rifles to the game. Completely customizable."
+    },
+    {
+      "name": "AQUILA - Laser Rifle",
+      "url": "https://www.nexusmods.com/fallout4/mods/30687",
+      "flags": [],
+      "desc": "Adds a new laser rifle that can be found is Boston."
+    },
+    {
+      "name": "Wattz Laser Gun",
+      "url": "https://www.nexusmods.com/fallout4/mods/26386",
+      "flags": [],
+      "desc": "Adds the Wattz 3000, inspired by the Wattz 2000 from Fallout. Has some compatibility issues so check for patches."
+    },
+    {
+      "name": "CROSS PlasRail",
+      "url": "https://www.nexusmods.com/fallout4/mods/13850",
+      "flags": [],
+      "desc": "A heavily moddable plasma rifle. Also has some compatibility issues with other mods. Patches are usually available."
     }
   ],
   "realism": [
@@ -721,12 +841,36 @@
   "thievery_overhaul": [
   ],
   "stealth": [
+    {
+      "name": "Stealth and Detection System",
+      "url": "https://www.nexusmods.com/fallout4/mods/62140",
+      "flags": [],
+      "desc": "Overhauls the stealth system to allow for actual stealth gameplay. Provides an easier experience but a more realistic one. Agility affects stealth."
+    }
   ],
   "pickpocket": [
   ],
   "lockpicking": [
+    {
+      "name": "Breakable Locks",
+      "url": "https://www.nexusmods.com/fallout4/mods/22791",
+      "flags": [],
+      "desc": "Gives an alternative method for opening locked doors. Shoot them. Configurable requirements."
+    },
+    {
+      "name": "Better Locks",
+      "url": "https://www.nexusmods.com/fallout4/mods/4370",
+      "flags": [],
+      "desc": "Retextures the locks and tools when lockpicking."
+    }
   ],
   "crime": [
+    {
+      "name": "Crime and Punishment",
+      "url": "https://www.nexusmods.com/fallout4/mods/58429",
+      "flags": [1, 2, 3, 4, 5, 6, 7],
+      "desc": "An overhaul for the crime system, bringing back karma, and complete with consequences for all your crimes. Adult content disabled by default."
+    }
   ],
   "crafting_overhaul": [
     {
@@ -739,7 +883,7 @@
       "name": "Workshop Framework",
       "url": "https://www.nexusmods.com/fallout4/mods/35004",
       "flags": [],
-      "desc": ""
+      "desc": "Provides a framework to allow mods to integrate with the settlement workshop without breaking compatibility."
     },
     {
       "name": "Crafting Mastery",
@@ -766,6 +910,12 @@
       "url": "https://www.nexusmods.com/fallout4/mods/9217",
       "flags": [],
       "desc": "Adds the chambering mod, allowing you to switch the ammo type a weapon fires."
+    },
+    {
+      "name": "Rechargable Fusion Cores",
+      "url": "https://www.nexusmods.com/fallout4/mods/33334",
+      "flags": [],
+      "desc": "Provides a new device to recharge fusion cores. "
     }
   ],
   "cooking": [
@@ -778,10 +928,112 @@
   ],
   "settlement": [
     {
+      "name": "Settlement Keywords Expanded",
+      "url": "https://www.nexusmods.com/fallout4/mods/12226",
+      "flags": [],
+      "desc": "Provides a bunch of new categories for the settlement menu."
+    },
+    {
       "name": "Sim Settlements 2",
       "url": "https://www.nexusmods.com/fallout4/mods/47976",
       "flags": [],
       "desc": "Adds a whole simulation system that allows settlers to build their own housing."
+    },
+    {
+      "name": "Scrap Everything",
+      "url": "https://www.nexusmods.com/fallout4/mods/5320",
+      "flags": [8],
+      "desc": "Gives you full freedom to scrap every object inside a settlement."
+    },
+    {
+      "name": "Spring Cleaning",
+      "url": "https://www.nexusmods.com/fallout4/mods/4640",
+      "flags": [8],
+      "desc": "Allows you to scrap much more stuff to clean up your settlements.<br>The *[Spring Cleaning Compatibility Patch](https://www.nexusmods.com/fallout4/mods/12702)* is highly recommended to avoid any potential conflicts."
+    },
+    {
+      "name": "Snappable Junk Fences",
+      "url": "https://www.nexusmods.com/fallout4/mods/9000",
+      "flags": [],
+      "desc": "Junk fences should now snap together, giving a much cleaner look."
+    },
+    {
+      "name": "Looks Mirror",
+      "url": "https://www.nexusmods.com/fallout4/mods/13627",
+      "flags": [],
+      "desc": "Adds a mirror to the workshop that gives access to the LooksMenu without console commands."
+    },
+    {
+      "name": "Settlement Objects Expansion Pack",
+      "url": "https://www.nexusmods.com/fallout4/mods/10075",
+      "flags": [],
+      "desc": "Adds over 1500 new objects to build and decorate your settlements with. Not all lore friendly."
+    },
+    {
+      "name": "Homemaker",
+      "url": "https://www.nexusmods.com/fallout4/mods/1478",
+      "flags": [],
+      "desc": "Adds over 1000 new objects to build your settlements with."
+    },
+    {
+      "name": "Settlement Supplies Expanded",
+      "url": "https://www.nexusmods.com/fallout4/mods/1145",
+      "flags": [],
+      "desc": "Adds arount 400 more objects for settlements."
+    },
+    {
+      "name": "Functional Displays",
+      "url": "https://www.nexusmods.com/fallout4/mods/5080",
+      "flags": [],
+      "desc": "Adds a bunch of racks and boards that can be used to display items, weapon, armor, etc."
+    },
+    {
+      "name": "OCDecorator",
+      "url": "https://www.nexusmods.com/fallout4/mods/4270",
+      "flags": [],
+      "desc": "Gives the ability to place any lootable object as a static object. Decorate your settlement to your heart's content."
+    },
+    {
+      "name": "Snappable Power Armor Workbenches",
+      "url": "https://www.nexusmods.com/fallout4/mods/8026",
+      "flags": [],
+      "desc": "Makes power armor stations snappable so it's easier to make a garage with all your gear."
+    },
+    {
+      "name": "Castle Walls Repaired",
+      "url": "https://www.nexusmods.com/fallout4/mods/27889",
+      "flags": [],
+      "desc": "Adds castle walls to the workshop, and allows much more of the castle to be scrapped."
+    },
+    {
+      "name": "Repairable Sanctuary",
+      "url": "https://www.nexusmods.com/fallout4/mods/8610",
+      "flags": [],
+      "desc": "Allows you to repair the bridge and houses of sanctuary. Highly recommended to use Spring Cleaning too."
+    },
+    {
+      "name": "CROP",
+      "url": "https://www.nexusmods.com/fallout4/mods/15900",
+      "flags": [],
+      "desc": "Provides a bunch of planters for your gardening needs."
+    },
+    {
+      "name": "Manufacturing Extended",
+      "url": "https://www.nexusmods.com/fallout4/mods/15429",
+      "flags": [],
+      "desc": "Adds new machines to the Contraptions Workshop DLC. Everything from power armor manufacturing to ammo factories."
+    },
+    {
+      "name": "Snap'n Build",
+      "url": "https://www.nexusmods.com/fallout4/mods/28834",
+      "flags": [],
+      "desc": "Adds new building sets that are fully snappable."
+    },
+    {
+      "name": "Longer Power Lines",
+      "url": "https://www.nexusmods.com/fallout4/mods/2241",
+      "flags": [],
+      "desc": "Gives a few options for longer power lines. Now you don't need as many towers littering your settlements."
     }
   ]
 }
