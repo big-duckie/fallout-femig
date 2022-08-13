@@ -10,7 +10,7 @@ mixin accordion-item(parent, id, title, data)
           table.table.table-sm
             tbody.align-middle
               for mod in data
-                tr(class=mod.flags.includes(5) ? "bg-gray" : "" )
+                tr(class=mod.flags.includes(8) ? "bg-gray" : "" )
                   td.col-3
                     if Array.isArray(mod.name)
                       for name, i in mod.name
@@ -21,10 +21,13 @@ mixin accordion-item(parent, id, title, data)
                     .d-flex.justify-content-center
                       for flag in mod.flags
                         case flag
-                          when 1: img.icon(src="assets/images/icons/dawnguard.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="Dawnguard DLC")
-                          when 2: img.icon(src="assets/images/icons/hearthfire.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="Hearthfire DLC")
-                          when 3: img.icon(src="assets/images/icons/dragonborn.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="Dragonborn DLC")
-                          when 4: img.icon(src="assets/images/icons/skse.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="SKSE")
+                          when 1: img.icon(src="assets/images/icons/automatron.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="Automatron DLC")
+                          when 2: img.icon(src="assets/images/icons/wasteland-workshop.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="Wasteland Workshop DLC")
+                          when 3: img.icon(src="assets/images/icons/far-harbor.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="Far Harbor DLC")
+                          when 4: img.icon(src="assets/images/icons/contraptions-workshop.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="Contraptions Workshop DLC")
+                          when 5: img.icon(src="assets/images/icons/vault-tec.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="Vault-Tec DLC")
+                          when 6: img.icon(src="assets/images/icons/nuka-world.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="Nuka-World DLC")
+                          when 7: img.icon(src="assets/images/icons/f4se.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="F4SE")
                   td!= marked.parseInline(mod.desc)
 
 block content
@@ -48,7 +51,6 @@ block content
       #accordion-2.accordion(role="tablist")
         +accordion-item("#accordion-2", 1, "200 - Character Creation", character_creation)
         +accordion-item("#accordion-2", 2, "210 - Alternate Starts", alternate_starts)
-        +accordion-item("#accordion-2", 3, "220 - Starter Homes", starter_homes)
         +accordion-item("#accordion-2", 4, "230 - Character Leveling", character_leveling)
         +accordion-item("#accordion-2", 5, "240 - Carry Weight", carry_weight)
         +accordion-item("#accordion-2", 6, "250 - Backpacks and Storage", backpacks_storage)
@@ -61,9 +63,7 @@ block content
         +accordion-item("#accordion-3", 2, "310 - Miscellaneous Gameplay", miscellaneous_gameplay)
         +accordion-item("#accordion-3", 3, "320 - Creature Levels", creature_levels)
         +accordion-item("#accordion-3", 4, "330 - Economy", economy)
-        +accordion-item("#accordion-3", 5, "340 - Magic", magic)
         +accordion-item("#accordion-3", 6, "350 - Combat", combat)
-        +accordion-item("#accordion-3", 7, "360 - Archery", archery)
         +accordion-item("#accordion-3", 8, "370 - Weapons and Armor", weapons_armor)
   .row.mb-4
     .col-xl-10.offset-xl-1
@@ -88,7 +88,6 @@ block content
       h2.text-start.mx-3 Travel Mods
       #accordion-6.accordion(role="tablist")
         +accordion-item("#accordion-6", 1, "600 - Speed", speed)
-        +accordion-item("#accordion-6", 2, "610 - Horses", horses)
         +accordion-item("#accordion-6", 3, "620 - Fast Travel", fast_travel)
         +accordion-item("#accordion-6", 4, "630 - Boats", boats)
         +accordion-item("#accordion-6", 5, "640 - Carriages", carriages)
@@ -104,7 +103,6 @@ block content
         +accordion-item("#accordion-7", 6, "750 - Wildlife Enhancements", diseases)
         +accordion-item("#accordion-7", 7, "760 - Wildlife Encounters", timescale)
         +accordion-item("#accordion-7", 8, "770 - Creatures", creatures)
-        +accordion-item("#accordion-7", 9, "780 - Dragons", dragons)
   .row.mb-4
     .col-xl-10.offset-xl-1
       h2.text-start.mx-3 Thievery Mods
