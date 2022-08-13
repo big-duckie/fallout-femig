@@ -39,29 +39,28 @@ block content
       h2.text-start.mx-3 Interface Mods
       #accordion-1.accordion(role="tablist")
         +accordion-item("#accordion-1", 1, "100 - Patches", patches)
-        +accordion-item("#accordion-1", 2, "110 - UI", ui)
-        +accordion-item("#accordion-1", 3, "120 - UI - Map", ui_map)
-        +accordion-item("#accordion-1", 4, "130 - UI - Timesavers", ui_timesavers)
-        +accordion-item("#accordion-1", 5, "140 - UI - Information", ui_information)
-        +accordion-item("#accordion-1", 6, "150 - UI - Sounds", ui_sounds)
-        +accordion-item("#accordion-1", 7, "160 - UI - Animations", ui_animations)
+        +accordion-item("#accordion-1", 4, "110 - UI", ui)
+        +accordion-item("#accordion-1", 2, "120 - UI - Frameworks", ui_frameworks)
+        +accordion-item("#accordion-1", 3, "130 - UI - Map", ui_map)
+        +accordion-item("#accordion-1", 4, "140 - UI - Sounds", ui_sounds)
+        +accordion-item("#accordion-1", 5, "150 - UI - Music", ui_music)
+        +accordion-item("#accordion-1", 6, "160 - UI - Animations", ui_animations)
   .row.mb-4
     .col-xl-10.offset-xl-1
       h2.text-start.mx-3 Character Mods
       #accordion-2.accordion(role="tablist")
         +accordion-item("#accordion-2", 1, "200 - Character Creation", character_creation)
         +accordion-item("#accordion-2", 2, "210 - Alternate Starts", alternate_starts)
-        +accordion-item("#accordion-2", 4, "230 - Character Leveling", character_leveling)
-        +accordion-item("#accordion-2", 5, "240 - Carry Weight", carry_weight)
-        +accordion-item("#accordion-2", 6, "250 - Backpacks and Storage", backpacks_storage)
-        +accordion-item("#accordion-2", 7, "260 - Item Weight", item_weight)
+        +accordion-item("#accordion-2", 3, "220 - Character Leveling", character_leveling)
+        +accordion-item("#accordion-2", 4, "230 - Carry Weight", carry_weight)
+        +accordion-item("#accordion-2", 5, "240 - Item Weight", item_weight)
+        +accordion-item("#accordion-2", 6, "250 - Backpacks", backpacks)
   .row.mb-4
     .col-xl-10.offset-xl-1
       h2.text-start.mx-3 Gameplay Mods
       #accordion-3.accordion(role="tablist")
         +accordion-item("#accordion-3", 1, "300 - Gameplay Overhaul", gameplay_overhaul)
         +accordion-item("#accordion-3", 2, "310 - Miscellaneous Gameplay", miscellaneous_gameplay)
-        +accordion-item("#accordion-3", 3, "320 - Creature Levels", creature_levels)
         +accordion-item("#accordion-3", 4, "330 - Economy", economy)
         +accordion-item("#accordion-3", 6, "350 - Combat", combat)
         +accordion-item("#accordion-3", 8, "370 - Weapons and Armor", weapons_armor)
@@ -78,30 +77,28 @@ block content
         +accordion-item("#accordion-4", 7, "460 - Timescale", timescale)
   .row.mb-4
     .col-xl-10.offset-xl-1
-      h2.text-start.mx-3 Weather &amp; Lighting Mods
+      h2.text-start.mx-3 Environmental Mods
       #accordion-5.accordion(role="tablist")
         +accordion-item("#accordion-5", 1, "500 - Weather", weather)
-        +accordion-item("#accordion-5", 2, "510 - Roleplaying", lighting)
-        +accordion-item("#accordion-5", 3, "520 - Torches and Lanterns", torches_lanterns)
+        +accordion-item("#accordion-5", 2, "510 - Lighting", lighting)
+        +accordion-item("#accordion-5", 3, "520 - Environment", environment)
   .row.mb-4
     .col-xl-10.offset-xl-1
       h2.text-start.mx-3 Travel Mods
       #accordion-6.accordion(role="tablist")
         +accordion-item("#accordion-6", 1, "600 - Speed", speed)
         +accordion-item("#accordion-6", 3, "620 - Fast Travel", fast_travel)
-        +accordion-item("#accordion-6", 4, "630 - Boats", boats)
-        +accordion-item("#accordion-6", 5, "640 - Carriages", carriages)
+        +accordion-item("#accordion-6", 4, "630 - Vehicles", vehicles)
   .row.mb-4
     .col-xl-10.offset-xl-1
       h2.text-start.mx-3 Encounter Mods
       #accordion-7.accordion(role="tablist")
-        +accordion-item("#accordion-7", 1, "700 - Followers", realism)
-        +accordion-item("#accordion-7", 2, "710 - Follower Enhancements", roleplaying)
-        +accordion-item("#accordion-7", 3, "720 - Spouses and Children", basic_needs)
-        +accordion-item("#accordion-7", 4, "730 - NPC Enhancements", camping)
-        +accordion-item("#accordion-7", 5, "740 - NPC Encounters", traps)
-        +accordion-item("#accordion-7", 6, "750 - Wildlife Enhancements", diseases)
-        +accordion-item("#accordion-7", 7, "760 - Wildlife Encounters", timescale)
+        +accordion-item("#accordion-7", 1, "700 - Companions", companions)
+        +accordion-item("#accordion-7", 2, "710 - Companion Enhancements", companion_enhancements)
+        +accordion-item("#accordion-7", 4, "730 - NPC Enhancements", npc_enhancements)
+        +accordion-item("#accordion-7", 5, "740 - NPC Encounters", npc_encounters)
+        +accordion-item("#accordion-7", 6, "750 - Enemy Enhancements", enemy_enhancements)
+        +accordion-item("#accordion-7", 7, "760 - Enemy Encounters", enemy_encounters)
         +accordion-item("#accordion-7", 8, "770 - Creatures", creatures)
   .row.mb-4
     .col-xl-10.offset-xl-1
@@ -119,6 +116,4 @@ block content
         +accordion-item("#accordion-9", 1, "900 - Crafting Overhaul", crafting_overhaul)
         +accordion-item("#accordion-9", 2, "910 - Crafting", crafting)
         +accordion-item("#accordion-9", 3, "920 - Cooking", cooking)
-        +accordion-item("#accordion-9", 4, "930 - Alchemy", alchemy)
-        +accordion-item("#accordion-9", 5, "940 - Scrollcrafting", scrollcrafting)
-        +accordion-item("#accordion-9", 6, "950 - Enhancements", enchantments)
+        +accordion-item("#accordion-9", 4, "930 - Settlements", settlement)

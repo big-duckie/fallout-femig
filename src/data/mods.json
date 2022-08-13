@@ -10,7 +10,13 @@
       "name": "F4SE",
       "url": "https://f4se.silverlock.org",
       "flags": [],
-      "desc": "This modifies the game files to allow other mods much more freedom to integrate with the game. Essential for many mods."
+      "desc": "Modifies FO4's API to give more control to mods."
+    },
+    {
+      "name": "Address Library for F4SE Plugins",
+      "url": "https://www.nexusmods.com/fallout4/mods/47327",
+      "flags": [7],
+      "desc": "Used in a bunch of mods for better compatibility over F4SE updates."
     },
     {
       "name": "Achievements",
@@ -22,27 +28,39 @@
       "name": "High FSP Physics Fix",
       "url": "https://www.nexusmods.com/fallout4/mods/44798",
       "flags": [7],
-      "desc": "Untie the game speed from the framerate. Fixes physical bugs. Reduces loading time."
+      "desc": "Untie the game speed from the framerate."
     },
     {
-      "name": "Armor and Weapon Keywords Community Resource",
-      "url": "https://www.nexusmods.com/fallout4/mods/6091",
+      "name": "Raw Input",
+      "url": "https://www.nexusmods.com/fallout4/mods/27019",
       "flags": [],
-      "desc": "This mod adds a new armor and weapon system to allow other mods to work together more seamlessly."
+      "desc": "Disables mouse acceleration, and makes the game much more responsive on PC."
     },
     {
-      "name": "Workshop Framework",
-      "url": "https://www.nexusmods.com/fallout4/mods/35004",
+      "name": "Insignificant Object Remover",
+      "url": "https://www.nexusmods.com/fallout4/mods/9835",
       "flags": [],
-      "desc": "Framework to open up the settlement system to editing by the community."
+      "desc": "Removed a ton of small objects for a decent performance bump."
+    },
+    {
+      "name": "FAR - Faraway Area Reform",
+      "url": "https://www.nexusmods.com/fallout4/mods/20713",
+      "flags": [],
+      "desc": "Optimizes distant textures for better performance while improving quality."
     }
   ],
   "ui": [
     {
-      "name": "Mod Configuration Menu",
-      "url": "https://www.nexusmods.com/fallout4/mods/21497",
-      "flags": [7],
-      "desc": "Adds a menu similar to the MCM in Skyrim. It provides a central location for mod configuration, accessible via the Pause menu."
+      "name": "DEF_UI",
+      "url": "https://www.nexusmods.com/fallout4/mods/10654",
+      "flags": [8],
+      "desc": "Provides a fully customizable HUD and menus. Includes KeyNuker to clean up the Misc tab."
+    },
+    {
+      "name": "FallUI",
+      "url": "https://www.nexusmods.com/fallout4/mods/51813",
+      "flags": [8],
+      "desc": "Replaces the HUD with a highly customizable version. This is broken into multiple smaller mods that each replace part of the UI."
     },
     {
       "name": "LooksMenu",
@@ -51,10 +69,42 @@
       "desc": "Overhauls the character creation menu to allow for much more customization."
     },
     {
+      "name": "LooksMenu Player Rotation",
+      "url": "https://www.nexusmods.com/fallout4/mods/62872",
+      "flags": [7],
+      "desc": "Allows you to rotate your character while customizing your appearance."
+    },
+    {
       "name": "Full Dialogue Interface",
       "url": "https://www.nexusmods.com/fallout4/mods/1235",
+      "flags": [8],
+      "desc": "Makes the game display the full lines of what your character is going to say in conversation."
+    },
+    {
+      "name": "Extended Dialogue Interface",
+      "url": "https://www.nexusmods.com/fallout4/mods/27216",
+      "flags": [8],
+      "desc": "Removed the 4-option dialogue requirement giving mods more freedom on NPC interaction."
+    },
+    {
+      "name": "Crafting Highlight Fix",
+      "url": "https://www.nexusmods.com/fallout4/mods/27479",
       "flags": [],
-      "desc": "Makes the game display the full lines of what your character is going to say in conversation, instead of just a paraphrase."
+      "desc": "Removed the scanline effect from items in the crafting interface."
+    },
+    {
+      "name": "Value per Weight Indicator for Container UI",
+      "url": "https://www.nexusmods.com/fallout4/mods/334",
+      "flags": [],
+      "desc": "Adds a new value in inventories informing you how valuable something is compared to its weight."
+    }
+  ],
+  "ui_frameworks": [
+    {
+      "name": "Mod Configuration Menu",
+      "url": "https://www.nexusmods.com/fallout4/mods/21497",
+      "flags": [7],
+      "desc": "Provides a central location for mod configuration, accessible via the Pause menu."
     },
     {
       "name": "HUDFramework",
@@ -63,87 +113,608 @@
       "desc": "Adds a framework that allows other mods to add new UI elements to the HUD."
     },
     {
-      "name": "See Through Scopes",
-      "url": "https://www.nexusmods.com/fallout4/mods/9476",
+      "name": "Settlement Menu Manager",
+      "url": "https://www.nexusmods.com/fallout4/mods/24204",
       "flags": [],
-      "desc": "Adds see-through (so no scope overlay) Combat Scopes to various weapons."
+      "desc": "Allows mods to change the settlement build menu without having major conflicts."
     }
   ],
   "ui_map": [
-  ],
-  "ui_timesavers": [
-  ],
-  "ui_information": [
+    {
+      "name": "Improved Map with Visible Roads",
+      "url": "https://www.nexusmods.com/fallout4/mods/1215",
+      "flags": [8],
+      "desc": "An overhauled map with roads, topography and water. Much higher contrast to vanilla."
+    },
+    {
+      "name": "Satellite World Map",
+      "url": "https://www.nexusmods.com/fallout4/mods/8989",
+      "flags": [8],
+      "desc": "A high resolution world map assembled from in-game aerial views."
+    }
   ],
   "ui_sounds": [
+    {
+      "name": "Quieter Settlements",
+      "url": "https://www.nexusmods.com/fallout4/mods/2819",
+      "flags": [],
+      "desc": "Reduces the noise from settlement sources like generators and turrets."
+    },
+    {
+      "name": "Reverb and Ambiance Overhaul",
+      "url": "https://www.nexusmods.com/fallout4/mods/10189",
+      "flags": [],
+      "desc": "Improves various sounds by overhauling outdoor ambiance and indoor reverb."
+    },
+    {
+      "name": "Ambient Wasteland",
+      "url": "https://www.nexusmods.com/fallout4/mods/25343",
+      "flags": [],
+      "desc": "Adds a ton of new ambient sounds to make the wasteland feel less empty."
+    },
+    {
+      "name": "Fallout 4 Reloaded",
+      "url": "https://www.nexusmods.com/fallout4/mods/58310",
+      "flags": [3, 6],
+      "desc": "Overhauls all vanilla weapon noises to feel much more devastating."
+    },
+    {
+      "name": "Modern UI Sounds",
+      "url": "https://www.nexusmods.com/fallout4/mods/62984",
+      "flags": [],
+      "desc": "Replaces the menu, Pip-Boy, and HUD sounds."
+    }
+  ],
+  "ui_music": [
+    {
+      "name": "More Where That Came From",
+      "url": "https://www.nexusmods.com/fallout4/mods/637",
+      "flags": [],
+      "desc": "Adds over 100 songs to Diamond City Radio."
+    },
+    {
+      "name": "Jetfuel Radio",
+      "url": "https://www.nexusmods.com/fallout4/mods/5303",
+      "flags": [],
+      "desc": "Adds a new radio station with two hours of music."
+    },
+    {
+      "name": "Synthstream FM",
+      "url": "https://www.nexusmods.com/fallout4/mods/16369",
+      "flags": [],
+      "desc": "Adds a new radio station with 15.5 hours of synthwave music."
+    },
+    {
+      "name": "Lost World - Immersive Soundtrack Replacer",
+      "url": "https://www.nexusmods.com/fallout4/mods/56265",
+      "flags": [],
+      "desc": "Replaces all vanilla ambient music."
+    }
   ],
   "ui_animations": [
+    {
+      "name": "Advanced Animation Framework",
+      "url": "https://www.nexusmods.com/fallout4/mods/31304",
+      "flags": [],
+      "desc": "Provides a system for other mods to add new animations without overwriting existing ones."
+    },
+    {
+      "name": "Power Armor Animation Changes",
+      "url": "https://www.nexusmods.com/fallout4/mods/4408",
+      "flags": [],
+      "desc": "Speeds up the enter and exit animations and provides a more upright empty idle stance."
+    },
+    {
+      "name": "Realistic Ragdoll Force",
+      "url": "https://www.nexusmods.com/fallout4/mods/5149",
+      "flags": [],
+      "desc": "Massively improves ragdolls to behave much more realistic."
+    },
+    {
+
+      "name": "Lowered Weapons",
+      "url": "https://www.nexusmods.com/fallout4/mods/522",
+      "flags": [],
+      "desc": "Allows your character to lower their weapon in first person."
+    },
+    {
+      "name": "Idle Hands",
+      "url": "https://www.nexusmods.com/fallout4/mods/6113",
+      "flags": [],
+      "desc": "Provides a bunch of new idle animations to both males and females."
+    },
+    {
+      "name": "First-Person Running Hands Animations",
+      "url": "https://www.nexusmods.com/fallout4/mods/62240",
+      "flags": [],
+      "desc": "Adds arms to the first person run animation."
+    }
   ],
   "character_creation": [
+    {
+      "name": "The Eyes of Beauty",
+      "url": "https://www.nexusmods.com/fallout4/mods/133",
+      "flags": [],
+      "desc": "Replaces vanilla eye textures with higher resolution ones."
+    },
+    {
+      "name": "Looking Stranger",
+      "url": "https://www.nexusmods.com/fallout4/mods/19095",
+      "flags": [],
+      "desc": "Adds many eyes with strange appearances like heterochromia."
+    },
+    {
+      "name": "Commonweath Cuts",
+      "url": "https://www.nexusmods.com/fallout4/mods/11402",
+      "flags": [],
+      "desc": "Conversions of KS Hairdos and ApachiiSkyHair from Skyrim to Fallout 4."
+    },
+    {
+      "name": "Ponytail Hairstyles",
+      "url": "https://www.nexusmods.com/fallout4/mods/8126",
+      "flags": [],
+      "desc": "Adds a few new hairstyles. Confusingly contains non-ponytail haircuts."
+    },
+    {
+      "name": "Lots More Male Hairstyles",
+      "url": "https://www.nexusmods.com/fallout4/mods/10695",
+      "flags": [],
+      "desc": "Adds 100+ vanilla-friendly hairstyles for men."
+    },
+    {
+      "name": "Lots More Female Hairstyles",
+      "url": "https://www.nexusmods.com/fallout4/mods/10543",
+      "flags": [],
+      "desc": "Adds 100+ vanilla-friendly hairstyles for women."
+    },
+    {
+      "name": "Lots More Facial Hair",
+      "url": "https://www.nexusmods.com/fallout4/mods/10746",
+      "flags": [],
+      "desc": "Adds 100+ vanilla-friendly facial hair styles."
+    },
+    {
+      "name": "Appealing Moles",
+      "url": "https://www.nexusmods.com/fallout4/mods/3802",
+      "flags": [],
+      "desc": "Replaces the default terrible moles with much better looking ones."
+    }
   ],
   "alternate_starts": [
+    {
+      "name": "Start Me Up Redux",
+      "url": "https://www.nexusmods.com/fallout4/mods/56984",
+      "flags": [],
+      "desc": "A continuation of the original Start Me Up. This mod allows you to completely change your start point. It is prone to mod conflicts due to how much it must change."
+    },
+    {
+      "name": "SKK Fast Start New Game",
+      "url": "https://www.nexusmods.com/fallout4/mods/29227",
+      "flags": [],
+      "desc": "This mod allows you to skip all the pre-war gameplay. As soon as you are finished your SPECIAL, you load to outside Vault 111. Compatible with most mods as it just changes the very start of the game."
+    }
   ],
   "character_leveling": [
+    {
+      "name": "PerkPointsPerLevel",
+      "url": "https://www.nexusmods.com/fallout4/mods/3938",
+      "flags": [7],
+      "desc": "Allows you to set how many perk points you want for each level gained."
+    },
+    {
+      "name": "Perk Up",
+      "url": "https://www.nexusmods.com/fallout4/mods/62843",
+      "flags": [8],
+      "desc": "Makes a few tweaks to certain perks to make them more useful."
+    },
+    {
+      "name": "Creative Perks",
+      "url": "https://www.nexusmods.com/fallout4/mods/28192",
+      "flags": [1, 3, 6, 8],
+      "desc": "Overhauls a ton of perks with new and interesting effects."
+    },
+    {
+      "name": "Creative Perks Plus",
+      "url": "https://www.nexusmods.com/fallout4/mods/49400",
+      "flags": [1, 3, 6, 8],
+      "desc": "A total perk overhaul based on Creative Perks. Changes almost every perk in the game."
+    }
   ],
   "carry_weight": [
-  ],
-  "backpacks_storage": [
+    {
+      "name": "Carry Weight Modifications",
+      "url": "https://www.nexusmods.com/fallout4/mods/214",
+      "flags": [],
+      "desc": "Provides a bunch of options to change your carry weight, as well as carry weight per strength level."
+    },
+    {
+      "name": "Carry More with Power Armor",
+      "url": "https://www.nexusmods.com/fallout4/mods/6209",
+      "flags": [],
+      "desc": "Increases the carry weight boost you receive from wearing power armor."
+    }
   ],
   "item_weight": [
+    {
+      "name": "Weightless Junk and Other Items",
+      "url": "https://www.nexusmods.com/fallout4/mods/2481",
+      "flags": [],
+      "desc": "Gives you options to reduce or eliminate the weight of junk items."
+    }
+  ],
+  "backpacks": [
+    {
+      "name": "Wearable Backpacks and Pouches",
+      "url": "https://www.nexusmods.com/fallout4/mods/3258",
+      "flags": [],
+      "desc": "Adds upgradable backpacks and pouches."
+    },
+    {
+      "name": "Backpacks of the Commonwealth",
+      "url": "https://www.nexusmods.com/fallout4/mods/29447",
+      "flags": [],
+      "desc": "Adds 20 backpacks with 60 mods and 50 colors."
+    }
   ],
   "gameplay_overhaul": [
+    {
+      "name": "Lunar Fallout All in One Overhaul",
+      "url": "https://www.nexusmods.com/fallout4/mods/34769",
+      "flags": [1, 2, 3, 4, 5, 6],
+      "desc": "A comprehensive overhaul of almost every system in the game."
+    }
   ],
   "miscellaneous_gameplay": [
-  ],
-  "creature_levels": [
+    {
+      "name": "Bullet Time - Slow Time",
+      "url": "https://www.nexusmods.com/fallout4/mods/9325",
+      "flags": [8],
+      "desc": "Replaces VATS with a bullet time effect. Customizable AP cost and time dilation factor."
+    },
+    {
+      "name": "VAFS Redux - Bullet Time and Manual Critical",
+      "url": "https://www.nexusmods.com/fallout4/mods/36519",
+      "flags": [8],
+      "desc": "Replaces VATS with Focus for slow motion. Modifies VATS perks to provide Focus buffs."
+    },
+    {
+      "name": "See Through Scopes",
+      "url": "https://www.nexusmods.com/fallout4/mods/9476",
+      "flags": [],
+      "desc": "Changes combat scopes to not block out your vision when ADS'd."
+    },
+    {
+      "name": "Take Cover",
+      "url": "https://www.nexusmods.com/fallout4/mods/10875",
+      "flags": [],
+      "desc": "Adds a cover system to 3rd person that allows your character to properly get into cover."
+    },
+    {
+      "name": "Pip-Boy Flashlight",
+      "url": "https://www.nexusmods.com/fallout4/mods/10840",
+      "flags": [],
+      "desc": "Overhauls the flashlight on the Pip-Boy and Power Armor."
+    },
+    {
+      "name": "Bullet Counted Reload System",
+      "url": "https://www.nexusmods.com/fallout4/mods/41178",
+      "flags": [],
+      "desc": "Fixes some wonky game engine stuff and adds proper reloading of weapons."
+    },
+    {
+      "name": "Tactical Reload",
+      "url": "https://www.nexusmods.com/fallout4/mods/49444",
+      "flags": [],
+      "desc": "Adds a second reload for when you still have a round chambered."
+    },
+    {
+      "name": "We Are The Minutemen",
+      "url": "https://www.nexusmods.com/fallout4/mods/6443",
+      "flags": [],
+      "desc": "Makes some major improvements to the Minutemen. Turns them into an actual faction you can build."
+    },
+    {
+      "name": "Longer Lasting Fusion Cores",
+      "url": "https://www.nexusmods.com/fallout4/mods/53188",
+      "flags": [],
+      "desc": "For those that use power armor a lot, fusion cores can be a headache. This gives you options on how long you want them to last."
+    }
   ],
   "economy": [
+    {
+      "name": "1 Day or Instant Vendors Money Reset",
+      "url": "https://www.nexusmods.com/fallout4/mods/276",
+      "flags": [],
+      "desc": "Reduces the time it takes for vendors money to reset. Useful for selling huge amounts of gear."
+    }
   ],
   "combat": [
+    {
+      "name": "Arbitration - Combat AI",
+      "url": "https://www.nexusmods.com/fallout4/mods/2037",
+      "flags": [],
+      "desc": "A customizable overhaul for combat."
+    }
   ],
   "weapons_armor": [
+    {
+      "name": "Synth Overhaul",
+      "url": "https://www.nexusmods.com/fallout4/mods/9525",
+      "flags": [],
+      "desc": "Overhauls synth armor providing more variations. Includes a two modified synth weapons."
+    }
   ],
   "realism": [
+    {
+      "name": "Darker Nights",
+      "url": "https://www.nexusmods.com/fallout4/mods/191",
+      "flags": [3, 6],
+      "desc": "Configurable night darkness."
+    }
   ],
   "roleplaying": [
   ],
   "basic_needs": [
   ],
   "camping": [
+    {
+      "name": "Campsite",
+      "url": "https://www.nexusmods.com/fallout4/mods/11734",
+      "flags": [],
+      "desc": "A lightweight camping mod that adds tents, sleeping bags, fires, etc."
+    },
+    {
+      "name": "Kitcat's Camping Gear",
+      "url": "https://www.nexusmods.com/fallout4/mods/39451",
+      "flags": [],
+      "desc": "Adds portable tents and crafting stations."
+    }
   ],
   "traps": [
+    {
+      "name": "Deadly Traps and Hazards",
+      "url": "https://www.nexusmods.com/fallout4/mods/37031",
+      "flags": [],
+      "desc": "Settlement traps and other hazards become much more of a threat."
+    }
   ],
   "diseases": [
+    {
+      "name": "The Elder Sickness",
+      "url": "https://www.nexusmods.com/fallout4/mods/12895",
+      "flags": [],
+      "desc": "Adds 8 new illnesses based on some diseases from Skyrim. Also makes a modification to Molerat Disease."
+    },
+    {
+      "name": "HEV Power Armor",
+      "url": "https://www.nexusmods.com/fallout4/mods/18192",
+      "flags": [],
+      "desc": "Prevents you from gaining any infection, or being affected by weakness or poison while wearing power armor."
+    }
   ],
   "timescale": [
+    {
+      "name": "Time Scale and Fast Travel Adjustment",
+      "url": "https://www.nexusmods.com/fallout4/mods/657",
+      "flags": [],
+      "desc": "Makes days pass much slower and changes fast travel speed so time passes like you jogged there."
+    }
   ],
   "weather": [
+    {
+      "name": "True Storms",
+      "url": "https://www.nexusmods.com/fallout4/mods/4472",
+      "flags": [8],
+      "desc": "A complete overhaul of the storm system. New weathers, effects, and dangers."
+    },
+    {
+      "name": "Vivid Weathers",
+      "url": "https://www.nexusmods.com/fallout4/mods/15466",
+      "flags": [8],
+      "desc": "Another overhaul of the weather and climate system. Adds 75 new weathers."
+    }
   ],
   "lighting": [
+    {
+      "name": "Enhanced Lights and FX",
+      "url": "https://www.nexusmods.com/fallout4/mods/13596",
+      "flags": [],
+      "desc": "Overhauls many light sources to give a more atmospheric and realistic lighting."
+    }
   ],
-  "torches_lanterns": [
+  "environment": [
+    {
+      "name": "Vivid Fallout",
+      "url": "https://www.nexusmods.com/fallout4/mods/25714",
+      "flags": [],
+      "desc": "A total replacement of landscape, tree, rock, road, and even more textures. Designed to be efficient while increasing the quality of the Commonwealth."
+    },
+    {
+      "name": "A Forest",
+      "url": "https://www.nexusmods.com/fallout4/mods/45330",
+      "flags": [1, 2, 3, 4, 5, 6],
+      "desc": "This mod covers the majority of the Commonwealth with a dense forest, inspired by Chernobyl and Bikini Atoll."
+    },
+    {
+      "name": "Natural Landscapes",
+      "url": "https://www.nexusmods.com/fallout4/mods/38841",
+      "flags": [],
+      "desc": "Replaces most rocks and roads to make them feel more weathered."
+    },
+    {
+      "name": "Vivid Waters",
+      "url": "https://www.nexusmods.com/fallout4/mods/16425",
+      "flags": [],
+      "desc": "Overhauls all water textures, including reflections and opacity, in an attempt to make the water look much more realistic."
+    },
+    {
+      "name": "Wasteland Illumination",
+      "url": "https://www.nexusmods.com/fallout4/mods/35498",
+      "flags": [],
+      "desc": "Adds 800+ lights throughout the Commonwealth."
+    }
   ],
   "speed": [
+    {
+      "name": "Realistic Movement Speed for the Wasteland",
+      "url": "https://www.nexusmods.com/fallout4/mods/25495",
+      "flags": [],
+      "desc": "Adjusts the speeds of the player, and NPCs. Provides a more realistic feel of faster walking, slower running."
+    }
   ],
   "fast_travel": [
+    {
+      "name": "Central Station",
+      "url": "https://www.nexusmods.com/fallout4/mods/15407",
+      "flags": [],
+      "desc": "Adds a lore-friendly replacement for fast travel."
+    }
   ],
-  "boats": [
+  "vehicles": [
+    {
+      "name": "Drivables of the Commonwealth - Semi Trucks",
+      "url": "https://www.nexusmods.com/fallout4/mods/26198",
+      "flags": [],
+      "desc": "Adds 3 drivable/ridable semi-trucks to the game."
+    },
+    {
+      "name": "Drivables of the Commonwealth - APC",
+      "url": "https://www.nexusmods.com/fallout4/mods/36681",
+      "flags": [],
+      "desc": "Adds a drivable APC to the game. Requires a quest to obtain it."
+    },
+    {
+      "name": "Drivables of the Commonwealth - Jeep",
+      "url": "https://www.nexusmods.com/fallout4/mods/36201",
+      "flags": [],
+      "desc": "Adds 4 drivable jeeps to the game."
+    },
+    {
+      "name": "Drivables of the Commonwealth - Boats",
+      "url": "https://www.nexusmods.com/fallout4/mods/28605",
+      "flags": [],
+      "desc": "Adds 6 boats that can be driven."
+    }
   ],
-  "carriages": [
+  "companions": [
+    {
+      "name": "Heather Casdin",
+      "url": "https://www.nexusmods.com/fallout4/mods/23273",
+      "flags": [],
+      "desc": "2200 lines of custom dialogue and a ton of quests."
+    },
+    {
+      "name": "Ellen",
+      "url": "https://www.nexusmods.com/fallout4/mods/15962",
+      "flags": [],
+      "desc": "The first companion with custom voice lines. Over 1200 lines. Custom quest, affility system, and romance."
+    },
+    {
+      "name": "I'm Darlene",
+      "url": "https://www.nexusmods.com/fallout4/mods/36254",
+      "flags": [],
+      "desc": "A full custom companion with 5000 lines of dialogue, 5 quests, and 5 perks. Affinity support, and romancable."
+    },
+    {
+      "name": "Capital Wasteland Robot Pack",
+      "url": "https://www.nexusmods.com/fallout4/mods/52147",
+      "flags": [1],
+      "desc": "Adds 4 new robots to the Automatron DLC with their respective weapons and voice-lines."
+    }
   ],
-  "followers": [
-  ],
-  "follower_enhancements": [
-  ],
-  "spouses_children": [
+  "companion_enhancements": [
+    {
+      "name": "Everyone's Best Friend",
+      "url": "https://www.nexusmods.com/fallout4/mods/13459",
+      "flags": [8],
+      "desc": "Allows you to always have Dogmeat in addition to another companion."
+    },
+    {
+      "name": "Unlimited Companion Framework",
+      "url": "https://www.nexusmods.com/fallout4/mods/11829",
+      "flags": [8],
+      "desc": "Allows you to have unlimited companions."
+    },
+    {
+      "name": "Companion Infinite Ammo",
+      "url": "https://www.nexusmods.com/fallout4/mods/6233",
+      "flags": [],
+      "desc": "Gives all companions infinite ammo. No more worrying about them wasting rounds."
+    },
+    {
+      "name": "Loving Cait",
+      "url": "https://www.nexusmods.com/fallout4/mods/7915",
+      "flags": [],
+      "desc": "A face overhaul for Cait."
+    },
+    {
+      "name": "Loving Piper",
+      "url": "https://www.nexusmods.com/fallout4/mods/9811",
+      "flags": [],
+      "desc": "A face overhaul for Piper."
+    },
+    {
+      "name": "Loving Curie",
+      "url": "https://www.nexusmods.com/fallout4/mods/6782",
+      "flags": [],
+      "desc": "A face overhaul for Curie."
+    },
+    {
+      "name": "Deeper Thoughts - Curie",
+      "url": "https://www.nexusmods.com/fallout4/mods/25050",
+      "flags": [],
+      "desc": "Gives access to a bunch of unused Curie dialogue."
+    },
+    {
+      "name": "Platinum Curie",
+      "url": "https://www.nexusmods.com/fallout4/mods/25137",
+      "flags": [],
+      "desc": "A complete overhaul of Curie's looks to better match her tough but innocent demeanor."
+    }
   ],
   "npc_enhancements": [
+    {
+      "name": "Better Settlers",
+      "url": "https://www.nexusmods.com/fallout4/mods/4772",
+      "flags": [],
+      "desc": "Adds over 240 new settlers. Many options for customization."
+    },
+    {
+      "name": "Rich Merchants",
+      "url": "https://www.nexusmods.com/fallout4/mods/2727",
+      "flags": [],
+      "desc": "Gives all merchants more money. Customizable."
+    },
+    {
+      "name": "Immersive Merchants",
+      "url": "https://www.nexusmods.com/fallout4/mods/10039",
+      "flags": [],
+      "desc": "Vendors will have their stores/stalls decorated according to what they sell."
+    },
+    {
+      "name": "Settler and Companion Dialogue Overhaul",
+      "url": "https://www.nexusmods.com/fallout4/mods/41785",
+      "flags": [],
+      "desc": "Adds tons of cut dialogue from npcs and companions. Adds additional quests."
+    }
   ],
   "npc_encounters": [
   ],
-  "wildlife_enhancements": [
+  "enemy_enhancements": [
+    {
+      "name": "Super Mutant Redux",
+      "url": "https://www.nexusmods.com/fallout4/mods/11853",
+      "flags": [],
+      "desc": "Overhauls the super mutants. Increases their durability significantly."
+    },
+    {
+      "name": "Automatron for All",
+      "url": "https://www.nexusmods.com/fallout4/mods/14474",
+      "flags": [],
+      "desc": "Changes all vanilla bot inventories to have Automatron parts."
+    }
   ],
-  "wildlife_encounters": [
+  "enemy_encounters": [
   ],
   "creatures": [
   ],
@@ -158,15 +729,59 @@
   "crime": [
   ],
   "crafting_overhaul": [
+    {
+      "name": "Armor and Weapon Keywords Community Resource",
+      "url": "https://www.nexusmods.com/fallout4/mods/6091",
+      "flags": [],
+      "desc": "Adds a new item tagging system to allow mods to work together better."
+    },
+    {
+      "name": "Workshop Framework",
+      "url": "https://www.nexusmods.com/fallout4/mods/35004",
+      "flags": [],
+      "desc": ""
+    },
+    {
+      "name": "Crafting Mastery",
+      "url": "https://www.nexusmods.com/fallout4/mods/17849",
+      "flags": [8],
+      "desc": "Replaces the old system of all crafting recipes using the Chem Table with dedicated crafting stations for different types of item."
+    },
+    {
+      "name": "Equipment and Crafting Overhaul",
+      "url": "https://www.nexusmods.com/fallout4/mods/55503",
+      "flags": [8],
+      "desc": "Adds the universal workbench which can act as any type of crafting station."
+    }
   ],
   "crafting": [
+    {
+      "name": "Legendary Modification",
+      "url": "https://www.nexusmods.com/fallout4/mods/4042",
+      "flags": [],
+      "desc": "Allows you to craft legendary gear if you really dislike searching for it."
+    },
+    {
+      "name": "Rechambering Plus",
+      "url": "https://www.nexusmods.com/fallout4/mods/9217",
+      "flags": [],
+      "desc": "Adds the chambering mod, allowing you to switch the ammo type a weapon fires."
+    }
   ],
   "cooking": [
+    {
+      "name": "CHEF",
+      "url": "https://www.nexusmods.com/fallout4/mods/33795",
+      "flags": [],
+      "desc": "Rebalances cooking recipes and adds 50 new foods."
+    }
   ],
-  "alchemy": [
-  ],
-  "scrollcrafting": [
-  ],
-  "enchantments": [
+  "settlement": [
+    {
+      "name": "Sim Settlements 2",
+      "url": "https://www.nexusmods.com/fallout4/mods/47976",
+      "flags": [],
+      "desc": "Adds a whole simulation system that allows settlers to build their own housing."
+    }
   ]
 }
