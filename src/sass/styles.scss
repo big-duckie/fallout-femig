@@ -21,6 +21,9 @@ table {
 	&:last-child {
 		margin-right: 0;
 	}
+	@media (prefers-color-scheme: dark) {
+		filter: invert(1);
+	}
 }
 .accordion-body {
 	padding: 0;
@@ -33,6 +36,6 @@ table {
 		background-color: rgb(238, 239, 240) !important;
 	}
 	@media (prefers-color-scheme: dark) {
-		background-color: rgb(17, 16, 15) !important;
+		background-color: rgb(26, 26, 26) !important;
 	}
 }
