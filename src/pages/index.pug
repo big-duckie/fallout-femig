@@ -31,6 +31,10 @@ mixin accordion-item(parent, id, title, data)
                   td!= marked.parseInline(mod.desc)
 
 block content
+  .alert.alert-primary(role="alert")
+    | This website is still under construction. The mods list is not yet finished, and I am still looking for mods to fill the empty categories. Feel free to contribute via 
+    a(href="https://github.com/big-duckie/fallout-femig/issues") GitHub
+    | . Thank you.
   .row.mb-3
     .col-xl-10.offset-xl-1
       p Skyrim GEMS is a 1-page, quick-reference catalog of lore-friendly Gameplay Enhancement Mods for Skyrim.
