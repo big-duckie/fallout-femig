@@ -29,5 +29,10 @@ table {
 	margin-bottom: 0;
 }
 .bg-gray {
-	background-color: #eeeff0 !important;
+	@media (prefers-color-scheme: light) {
+		background-color: rgb(238, 239, 240) !important;
+	}
+	@media (prefers-color-scheme: dark) {
+		background-color: rgb(17, 16, 15) !important;
+	}
 }
