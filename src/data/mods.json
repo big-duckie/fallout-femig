@@ -211,7 +211,6 @@
       "desc": "Massively improves ragdolls to behave much more realistic."
     },
     {
-
       "name": "Lowered Weapons",
       "url": "https://www.nexusmods.com/fallout4/mods/522",
       "flags": [],
@@ -452,6 +451,12 @@
       "url": "https://www.nexusmods.com/fallout4/mods/24134",
       "flags": [],
       "desc": "Changes the damage modifiers on body parts to make headshots much more valuable."
+    },
+    {
+      "name": "Better Power Armor - Redux",
+      "url": "https://www.nexusmods.com/fallout4/mods/61146",
+      "flags": [7],
+      "desc": "A heavily customizable rework of power armor. Power armor now provides much more protection as long as the parts are intact. Using certain weapons is critical for fighting enemies in power armor."
     }
   ],
   "weapons_armor": [
